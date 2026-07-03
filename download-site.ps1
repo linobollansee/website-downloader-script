@@ -1,0 +1,1 @@
+$target_url = Read-Host "Enter the website url"; wget.exe --recursive --level=5 --page-requisites --adjust-extension --convert-links --no-parent --wait=2 --limit-rate=100k -P "$env:USERPROFILE\Desktop\site_download" $target_url
